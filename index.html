@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linktree Kalinyamat Sector</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+    body {
+    display: flex;
+    flex-direction: column; /* INI KUNCINYA: Memaksa konten disusun atas-bawah */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background: #1a0505; /* Sesuaikan warna backgroundmu */
+}
+
+    .profile-img-custom {
+    width: 80px !important;  /* Kunci Lebar */
+    height: 80px !important; /* Kunci Tinggi */
+    border-radius: 50% !important; /* Buat Lingkaran */
+    object-fit: cover !important; /* Cegah Gepeng */
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+    .nama-profil {
+    color: #ffffff !important; /* Putih bersih */
+    opacity: 1 !important;     /* Memastikan tidak transparan */
+    filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.2)); /* Sedikit efek glowing */
+}
+
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600&display=swap');
+
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background: radial-gradient(circle at top, #450a0a 0%, #1a0505 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            padding: 16px;
+        }
+
+        /* Card yang ramping dan presisi */
+        .main-card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(25px);
+            -webkit-backdrop-filter: blur(25px);
+            border-radius: 2.5rem;
+            padding: 2.5rem 1.25rem; /* Padding samping dikurangi agar button lebih pas */
+            width: 100%;
+            max-width: 320px; 
+            text-align: center;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Grouping buttons agar punya jarak yang konsisten */
+        .button-group {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem; /* Jarak antar button */
+            width: 100%;
+        }
+
+        /* Button yang pas dengan lebar container */
+        .custom-button {
+            background: rgba(255, 255, 255, 0.12);
+            color: white;
+            padding: 0.9rem;
+            border-radius: 1.1rem; /* Sudut membulat yang pas */
+            display: block;
+            width: 100%; /* Mengisi penuh lebar container (dikurangi padding container) */
+            font-weight: 500;
+            font-size: 0.9rem;
+            text-decoration: none;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            box-sizing: border-box; /* Memastikan padding tidak merusak lebar */
+        }
+
+        .custom-button:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: scale(1.02);
+            border-color: rgba(255, 255, 255, 0.2);
+        }
+
+        .profile-badge {
+            background: rgba(255, 255, 255, 0.08);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            padding: 6px 16px;
+            border-radius: 50px;
+            font-size: 0.65rem;
+            color: rgba(255, 255, 255, 0.6);
+            display: inline-flex;
+            align-items: center;
+            margin-bottom: 1.5rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="main-card">
+        <div class="profile-badge">
+             <div class="flex justify-center mb-6">
+    <img src="IMG_20260103_184019_635.webp" 
+         alt="Profile" 
+         class="profile-img-custom">
+</div>
+        </div>
+
+        <h1 class="text-2xl font-bold mb-1 nama-profil">Kalinyamat Sector</h1>
+
+        <p class="text-white/80 text-[13px] mb-8 leading-relaxed">Welcome to linktree Kalinyamat Sector</p>
+
+        <div class="button-group">
+            <a href="https://jeparastore.com" class="custom-button">JeparaStore</a>
+            <a href="https://persijap.id" class="custom-button">Website Persijap Jepara</a>
+            <a href="https://wa.me/+6285179591814" class="custom-button">Contact Me</a>
+
+
+        <div class="flex justify-center gap-6 mt-10 text-white/30">
+            <a href="https://www.instagram.com/sector_of_kalinyamat?igsh=enNhZjl4ZGxydm9l" class="hover:text-white transition-colors"><i class="fab fa-instagram text-lg"></i></a>
+            <a href="https://www.tiktok.com/@sector_of_kalinyamat?_r=1&_t=ZS-94x1Z3BRK0C" class="hover:text-white transition-colors"><i class="fab fa-tiktok text-lg"></i></a>
+ 
+        </div>
+        
+        
+    </div>
+    </div> <div style="text-align: center; margin-top: 20px; width: 100%;">
+        <p style="color: rgba(255, 255, 255, 0.4) !important; font-size: 10px; letter-spacing: 1px; text-transform: uppercase; line-height: 1.5;">
+            &copy; 2026 <span style="color: rgba(255, 255, 255, 0.6); font-weight: bold;">Kalinyamat Sector</span><br>
+            All Rights Reserved
+        </p>
+    </div>
+
+
+</body>
+</html>
+
+
+
+
